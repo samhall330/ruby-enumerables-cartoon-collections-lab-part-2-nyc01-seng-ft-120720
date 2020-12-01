@@ -21,5 +21,6 @@ def find_valid_calls(planeteer_calls)
       if call == valid_call
         call
       end
+    end
   end
 end
