@@ -23,7 +23,7 @@ def find_valid_calls(planeteer_calls)
         return call
         break
       else
-        return nil  
+        return nil
       end
     end
   end
