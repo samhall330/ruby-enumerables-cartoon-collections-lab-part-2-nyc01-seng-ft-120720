@@ -21,8 +21,6 @@ def find_valid_calls(planeteer_calls)
     valid_calls.each do |valid_call|
       if call == valid_call
         return_value = call
-        break
-
       end
     end
   end
