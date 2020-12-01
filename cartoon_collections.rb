@@ -16,7 +16,10 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  if planeteer_calls.find {|call| call.include?("Earth!", "Wind!", "Fire!", "Water!", "Heart!")}
-    call
+  planeteer_calls.each do |call|
+    valid_calls.each do |valid_call|
+      if call == valid_call 
+        call
+      end
   end
 end
