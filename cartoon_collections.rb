@@ -22,7 +22,7 @@ def find_valid_calls(planeteer_calls)
       if call == valid_call
         return_value = call
         break
-  
+
       end
     end
   end
