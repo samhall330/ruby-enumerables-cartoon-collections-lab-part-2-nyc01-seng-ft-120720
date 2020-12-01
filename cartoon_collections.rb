@@ -20,7 +20,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.each do |call|
     valid_calls.each do |valid_call|
       if call == valid_call
-        return call
+        return_value = call
       end
     end
   end
